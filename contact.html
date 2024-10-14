@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <script src="https://kit.fontawesome.com/2ca75661ea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resources/css/contact.css">
+    
+    <link rel="stylesheet" href="resources/css/nav.css">
+    <link rel="stylesheet" href="resources/css/footer.css">
+    <link rel="stylesheet" href="resources/css/cards.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    
+  <!--===================================================  navbar starts hear   =============================-->
+  <div id="navbar"> 
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btnNav"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="logo" >
+     <a href="#home">   
+       <input id="logo" type="image" src="resources/images/logo.png" alt="Home">
+     </a>
+    </div>
+    <ul class="navlinks">
+      <li>
+        <a class="btn" href="main-page.html">Home</a>
+     </li>
+        <li>
+           <a class="btn" href="#watch">Watch</a>
+        </li>
+        <li class="add">
+           <a class="btn" href="form.HTML"><i class="fas fa-plus"></i></a>
+        </li>
+        <li class="faq">
+           <a class="btn" href="#faq">F.A.Q.</a>
+        </li>
+        <li>
+           <a class="btn" href="#about">About</a>
+        </li>
+        <li>
+           <a class="btn active" href="contact.html"><i class="fas fa-phone-square-alt"></i></a>
+        </li>
+        <li class="calendar">
+           <a class="btn" href="#calendar"><i class="far fa-calendar-alt"></i></a>
+        </li>
+     </ul>
+  </div>
+ 
+
+<!--===================================================  navbar ends hear   =============================-->
+<!--===================================================  contact form start hear   =============================-->
+    <div class="content">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+
+        
+<!--===================================================  categories ends hear   =============================-->
+<footer class = "footer">
+  <div class = "icons">
+      <a href="#" alt="facebook" class="fa fa-facebook"></a>
+      <a href="#" alt="twitter" class="fa fa-twitter"></a>
+      <a href="#" alt="instagram" class="fa fa-instagram"></a>
+
+  </div>
+  <div id = "newsletter">
+      <h3>Subscribe to our newsletter!</h3>
+      <input type="email" id = "email" placeholder="Enter your email!">
+  </div>
+  <div class= "footer-links">
+      <a class="link" href="">About Us</a>
+      <a class="link" href="">Code of Conduct</a>
+      <a class="link" href="">Contact Us</a>
+      <a class="link" href="">Join the Team</a>
+      <p id="footerWrap">WWITV is a video streaming service that will soon be converted into an e-commerce site. For everyone's ease of mind please follow the code of conduct for contributing to the site and thanks to all developers that helped make and maintain it. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi recusandae corrupti alias magnam quaerat facere laborum nam voluptate reprehenderit ea at dolorum qui harum exercitationem labore animi, cumque dolorem eligendi.</p>
+      <br>
+      <br>
+      <br>
+  </div>
+
+</footer>
+    </div>
+
+    
+
+    
+</body>
+</html>
